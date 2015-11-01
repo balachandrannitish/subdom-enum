@@ -1,0 +1,4 @@
+{
+	"path_to_phantomjs" : "data/phantomjs.exe",
+	"brute_force_prefixes_file" : "data/prefixes.txt"
+}
