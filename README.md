@@ -9,10 +9,11 @@ Subdom-Enum is a command-line tool for Windows that enumerates subdomain names f
 #####Usage: 
 python subdom-enum.py [-h] [-b] [-g] [-s] [-v] [-o OUTPUT_FILE] Domain
 
--h, --help		show this help message and exit <br/>
--b, --bruteforce	Brute Force Forward DNS lookups for common subdomain prefixes [www,mail,etc] <br/>
--g, --googlescrape	Scrape Google search results (politely) <br/>
--s, --san-names	Fetch Subject Alternative Names from SSL certificates of subdomains identified by bruteforcing and/or Google scraping. This switch cant be used by itself. <br/>
--v, --verbose	Toggle verbose output. Off by default. <br/>
--o OUTPUT_FILE, --output-file OUTPUT_FILE	Dump results to an output file <br/>
+-h, --help :	show this help message and exit <br/>
+-b, --bruteforce : Brute Force Forward DNS lookups for common subdomain prefixes [www,mail,etc] <br/>
+-g, --googlescrape	: Scrape Google search results (politely) <br/>
+-s, --san-names : Fetch Subject Alternative Names from SSL certificates of subdomains identified by bruteforcing and/or Google scraping. This switch cant be used by itself. <br/>
+-v, --verbose : Toggle verbose output. Off by default. <br/>
+-o OUTPUT_FILE, --output-file OUTPUT_FILE : Dump results to an output file <br/>
+Domain : The domain name whose subdomains you want to enumerate
 
